@@ -3,7 +3,7 @@ import { Message } from '@newtestrepo/api-interfaces';
 
 const app = express();
 
-const greeting: Message = { message: 'Welcome to api!' };
+const greeting: Message = { message: 'Welcome to API!' };
 
 app.get('/api', (req, res) => {
   res.send(greeting);
